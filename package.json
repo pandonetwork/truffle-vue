@@ -1,16 +1,18 @@
 {
-  "name": "vue-init-test",
-  "version": "1.0.0",
-  "description": "A vue init test app",
+  "name": "truffle-vue",
+  "version": "0.2.0",
+  "description": "A vue.js truffle box",
   "author": "osarrouy <olivier.sarrouy@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "node build/dev-server.js",
+    "dev": "node scripts/dev-server.js",
     "start": "npm run dev",
-    "build": "node build/build.js",
+    "build": "node scripts/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
-    "test": "npm run unit && npm run e2e",
+    "test/truffle": "truffle test test/truffle/*",
+    "test/dapp": "npm run unit && npm run e2e",
+    "test": "npm run test/truffle && npm run test/dapp",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
