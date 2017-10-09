@@ -1,6 +1,6 @@
 # Vue.js truffle box
 
-A [truffle box](http://truffleframework.com/boxes/) to serve as the foundation of any Truffle and Vue.js dApp. Comes with [Vue.js](https://vuejs.org/), [vue-router](https://router.vuejs.org/en/) and [Vuex](https://vuex.vuejs.org/en/intro.html).
+A [`truffle box`](http://truffleframework.com/boxes/) to serve as the foundation of any [`Truffle`](http://truffleframework.com)and [`Vue.js`](https://vuejs.org/) dApp. Comes with [`Vue.js`](https://vuejs.org/), [`vue-router`](https://router.vuejs.org/en/) and [`Vuex`](https://vuex.vuejs.org/en/intro.html).
 
 ## Directory structure
 
@@ -75,7 +75,7 @@ This truffle box is crafted to enforce a clean directory structure.
 ## Installation
 
 1. Install [Truffle](http://truffleframework.com) and an Ethereum client - like [EthereumJS TestRPC](https://github.com/ethereumjs/testrpc).
-	```javascript
+	```
 	npm install -g truffle // Version 3.0.5+ required.
 	npm install -g ethereumjs-testrpc
 	```
@@ -84,7 +84,7 @@ This truffle box is crafted to enforce a clean directory structure.
 	```
 	truffle unbox wespr/truffle-vue
 	```
-3. Launch [`testrpc](https://github.com/ethereumjs/testrpc).
+3. Launch [`testrpc`](https://github.com/ethereumjs/testrpc).
 	```
 	testrpc <options>
 	```
@@ -113,7 +113,7 @@ This box comes with everything bundled for `unit`, `e2e` and `truffle` contracts
 	npm run test/truffle
 	```
 
-3. Alternatively you directly run `unit`, `e2e` and `truffle` contracts tests in one pass.
+3. Alternatively you can directly run `unit`, `e2e` and `truffle` contracts tests in one command.
 	```
 	npm run test
 	```
@@ -123,3 +123,7 @@ To build the application for production, use the build command. A production bui
 ```javascript
 npm run build
 ```
+
+## Issues
+
+Please send any bug issues or proposal for improvement to [Issues](https://github.com/wespr/truffle-vue/issues).
