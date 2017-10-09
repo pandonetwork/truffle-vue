@@ -1,6 +1,6 @@
 # Vue.js truffle box
 
-A [`truffle box`](http://truffleframework.com/boxes/) to serve as the foundation of any [`Truffle`](http://truffleframework.com)and [`Vue.js`](https://vuejs.org/) dApp. Comes with [`Vue.js`](https://vuejs.org/), [`vue-router`](https://router.vuejs.org/en/) and [`Vuex`](https://vuex.vuejs.org/en/intro.html).
+A [`truffle box`](http://truffleframework.com/boxes/) to serve as the foundation of any [`Truffle`](http://truffleframework.com) and [`Vue.js`](https://vuejs.org/) dApp. Comes with [`Vue.js`](https://vuejs.org/), [`vue-router`](https://router.vuejs.org/en/) and [`Vuex`](https://vuex.vuejs.org/en/intro.html).
 
 ## Directory structure
 
