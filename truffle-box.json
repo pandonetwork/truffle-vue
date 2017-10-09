@@ -6,10 +6,13 @@
   "commands": {
     "Compile contracts": "truffle compile",
     "Migrate contracts": "truffle migrate",
-    "Test contracts": "truffle test",
-    "Compile, migrate and copy artifacts to /src": "npm craft"
+    "Run dev server for front-end hot reloading": "npm run start",
+    "Run unit and e2e tests": "npm run test/dapp",
+    "Run truffle tests": "npm run test/truffle",
+    "Run all tests": "npm run test",
+    "Build for production": "npm run build"
   },
   "hooks": {
-    "post-unpack": ""
+    "post-unpack": "npm install"
   }
 }
