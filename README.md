@@ -13,9 +13,7 @@ This truffle box is crafted to enforce a clean directory structure.
 |   |
 |   +-- contracts/
 |   |   |
-|   |   + truffle compiled contracts json artifacts
-|   |
-|   + npm build scripts
+|   |   + truffle compiled contracts
 |
 +-- config/
 |   |
@@ -38,17 +36,45 @@ This truffle box is crafted to enforce a clean directory structure.
 |   +-- webpack/
 |   |   |
 |   |   + webpack config files
-|   |
-
-
-|
 |   
-
++-- contracts/
+|   | 
+|   + solidity contracts
+|
++-- migrations/
+|   |
+|   + truffle migrations files
+|
++-- scripts/
+|   |
+|   + webpack scripts
+|
++-- src/
+|   |
+|   + vue.js dapp files
+|
++-- static/
+|   |
+|   + vue.js dapp static files
+|
++-- test/
+|   |
+|   +-- e2e/
+|   |   |
+|   |   + e2e test files
+|   |
+|   +-- truffle/
+|   |   |
+|   |   + truffle test files
+|   |
+|   +-- unit/
+|   |   |
+|   |   + unit test files
 ```
 
 ## Installation
 
-1. Install Truffle and an Ethereum client - like EthereumJS TestRPC.
+1. Install [Truffle](http://truffleframework.com) and an Ethereum client - like [EthereumJS TestRPC](https://github.com/ethereumjs/testrpc).
 	```javascript
 	npm install -g truffle // Version 3.0.5+ required.
 	npm install -g ethereumjs-testrpc
@@ -58,7 +84,7 @@ This truffle box is crafted to enforce a clean directory structure.
 	```
 	truffle unbox wespr/truffle-vue
 	```
-3. Launch [testrpc](https://github.com/ethereumjs/testrpc)
+3. Launch [`testrpc](https://github.com/ethereumjs/testrpc).
 	```
 	testrpc <options>
 	```
